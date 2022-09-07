@@ -2,10 +2,10 @@ import numpy as np
 
 np.set_printoptions(formatter={' float_kind ':lambda x: " {0:6.3f}".format(x)})
 
-X = np.array([[2,3]])
-T = np.array([[27,-30]])
-W = np.array([[3,5],[4,6]])
-B = np.array([[1,2]])
+X = np.array([[2,3,4]])
+T = np.array([[27,-30,179]])
+W = np.array([[3,5,8],[4,6,9],[5,7,10]])
+B = np.array([[1,2,3]])
 
 for epoch in range(1000):
 
